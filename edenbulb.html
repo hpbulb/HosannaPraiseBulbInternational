@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eden Bulb International School</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">   
+<link rel="style" href="eden.css">
+</head>
+<style>
+    .para
+    {
+        font-size: 1.4em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+        p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(22, 19, 19);
+            font-size: 20px;
+        }
+        h1,h2{
+            color: rgb(0, 0, 0);
+            font-weight: 500;
+        }
+    #info,img{
+        font-size: 1.5em;
+        color: black;
+     }
+        #container {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(vecteezy_students-with-books-in-school-college-university_13280810.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 0px;
+    } 
+        .edenifo{
+            background-image: url(Untitled-1\ \(2\).jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .logo {
+                animation: fadein 2s forwards, float 3s infinite ease-in-out;
+            opacity: 0;
+            }
+            @keyframes float {
+                0%, 100% { transform: translateY(0px); }
+                50% { transform: translateY(-10px); }
+            }
+            @keyframes fadein {
+                to{
+                    opacity: 1;
+                }
+            }
+             .btn{
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    background-color: black;
+}
+
+
+/* Slide-in styles */
+.slide-target {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: transform 700ms cubic-bezier(.22,.98,.18,1), opacity 700ms ease-out;
+}
+.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Optional keyframes if you prefer CSS animation (not required by the JS observer) */
+@keyframes slidein {
+    from { transform: translateX(-100%); opacity: 0; }
+    to   { transform: translateX(0); opacity: 1; }
+}
+ .footer #footer{
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+ }
+ ul,span{ 
+   
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  text-align: center;
+}
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+  color: black;
+}
+.nav-link {
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+.nav-link:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+</style>
+<body class="bg-white">
+    <!--Navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-end" style="position: sticky; top: 0; z-index: 1000;">
+        <!-- Navbar content-->
+        <div class="container-fluid">
+            <img src="Eden BULB LOGO OR BARGE.png" alt="Hosanna Praise Bulb International" title="Hosanna Praise Bulb International" class="navbar-brand logo" height="50.5">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarnav" aria-controls="navbarnav" aria-current="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarnav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active " aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="text.html" class="nav-link active" aria-current="page">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact eden.html" class="nav-link active " aria-current="page">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                       <a href="reg.html" class="nav-link active " aria-current="page">Registration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid text-start text-white py-5" id="container">
+        <div class="row" >
+            <div class=" col">
+                  <div class=" col-md-8 order-md-2" style="font-size: 30px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">
+                    <p class="text-white">Welcome to Eden <br> Bulb International School Official Website</p>
+                                    <button type="button" class="btn btn-primary text-white"><a href="reg.html" class="text-white">Apply Now</a></button>
+                                    <button type="button" class="btn btn-primary text-white"><a href="text.html" class="text-white">About Us</a></button>
+
+            </div>
+            </div>
+        <div class=" col order-md-1">
+            <img src="Eden BULB LOGO OR BARGE.png" alt="..." height="200" class="logo slide-target">
+        </div>
+</div>
+</div>
+    <div class="edeninfo">
+    <h2 class="text-center  fw-bold" id="edenbulbinformation">EDEN BULB INTERNATIONAL SCHOOL</h2>
+    <div class="container  text-center">
+        <div class="row align-items-center">
+            <div class="col-md-6"><img src="DSC_4583.jpg" alt="" height="500" style="border-radius: 10px;"></div>
+            <div class="col-md-6 text-start shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                <div id="info "><h2 style="color: black;">Welcome Message From the Proprietress</h2>
+                             At Eden Bulb, we believe that education is a divine calling&ndash;a scared partnership between home, school , and heaven. Our mission is to raise children who are spiritually grounded , intellectually sound , and morally upright , through the guidance of the Holy Spirit , we combine strong academics with steadfast christain values to nurture excellence in character and learning. <br> <br>
+                               Every child at Eden Bulb is a seed of greatness planted by God , and it is ourprivilege towards those seeds with love , discilpline , and konwledege until they shine forth as global heights. <br><br>
+                             Thank you for trusting us with your child&apos;s growth. Together, we will continue to build a generation that stands out&ndash;academically, spiritually and morally.                                    <button type="button" class="btn btn-primary text-white"><a href="reg.html" class="text-white">Apply Now</a></button>
+ <br> <br>
+                            <div class="text-end fw-bold">
+                             With Love, <br>
+                             Pastor (Mrs) Queenette Ulu <br>
+                             Proprietress, Eden Bulb International School.</div>
+                    </p>
+                </div>       
+            </div>
+           
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-md-1">
+                        <img src="DSC_4053.JPG" alt="..." height="200" style="border-radius: 10px;">
+                    </div>
+                    <div class="col-md-6 order-md-2 text-center">
+                        <h1 class="fw-bold text-center text-black">
+                            Eden Bulb International School Vision
+                        </h1>
+                        <p class=" text-center text-black">
+                            To be a leading christian mission school that raise a new generation of leaders in all fields of human endeavor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="conainer">
+                <div class="row">
+                    <div class="col-md-6 order-md-2">
+                        <img src="DSC_3965.JPG" alt="..." height="200" style="border-radius: 10px;">
+                    </div>
+                    <div class="col-md-6 order-md-1 text-center">
+                        <h3 class="fw-bold text-center text-black">
+                            Eden Bulb International School Mission
+                        </h3>
+                      <p class="text-center text-black"> To provide a rigorous and supportive learning environment that empowers students to achieve academic excellence , develop a love of learning and become compassionate and responsible and global citizens.</p>
+                    </div>
+                </div>
+            </div>
+<div class="container">
+<div class="row">
+    <div class="col-md-6 order-md-1">
+        <img src="DSC_4000.JPG" alt="..." height="200" style="border-radius: 10px;">
+    </div>
+    <div class="col-md-6 order-md-2 text-center">
+        <P> At Eden Bulb, we believe that every child is a unique light—a seed destined to grow and shine. Our nurturing environment combines high academic standards with strong Christian values, shaping students to become leaders of integrity, purpose, and compassion. From early childhood to high school, we provide a balanced curriculum that fosters intellectual curiosity, moral strength, and lifelong learning.<button type="button" class="btn btn-primary text-white"><a href="text.html" class="text-white">Learn More</a></button> </P>
+
+    </div>
+</div>
+</div>
+   <div>
+             <div class="text-center text-white footer" >
+                   <p class="text-center" id="footer">&copy; Copyright 2025 Eden Bulb International School. All rights reserved. 
+                    <button type="button" class="btn btn-danger text-white"><a href="reg.html" class="text-white">Apply Now</a></button></p>
+                </div>
+            </div> 
+    <script>
+    // Slide-in on scroll using IntersectionObserver
+    document.addEventListener('DOMContentLoaded', function(){
+        const targets = document.querySelectorAll('.slide-target');
+        if('IntersectionObserver' in window){
+            const obs = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting){
+                        entry.target.classList.add('slide-in');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.2 });
+            targets.forEach(t => obs.observe(t));
+        } else {
+            // Fallback: just add the class if IntersectionObserver isn't supported
+            targets.forEach(t => t.classList.add('slide-in'));
+        }
+    });
+        </script>
+       
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
