@@ -159,7 +159,8 @@ small{
     justify-content: start;
     align-items: start;
     margin-left: 5px;
-    margin-top: 10.7px;
+    margin-top: 5.7px;
+    margin-bottom: 5.7px;
     font-weight: bold;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -219,3 +220,4 @@ small.givingsub{
     font-size: 15px;
 
 }
+
